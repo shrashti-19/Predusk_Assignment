@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "../Profile.css";
 
-const API = "http://localhost:5000/api"; // change later when backend is deployed
+const API = "https://predusk-assignment-2-5jgk.onrender.com/api";
+
 
 function Profile() {
   const [profile, setProfile] = useState(null);
