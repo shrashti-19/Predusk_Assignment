@@ -21,6 +21,10 @@ app.get("/health", (req, res) => {
   res.status(200).json({ status: "UP" });
 });
 
+const profileRoutes = require("./routes/profileRoutes");
+app.use("/api/profiles", profileRoutes);
+
+
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
