@@ -1,6 +1,6 @@
 # Predusk Assignment – Backend & AI Intern  
 
-A full-stack assignment project for **Predusk Technology Pvt. Ltd.** recruitment.  
+An assignment project for **Predusk Technology Pvt. Ltd.** recruitment.  
 It includes backend APIs built with **Node.js + Express + MongoDB**, and a frontend built with **React + Vite**.  
 
 ---
