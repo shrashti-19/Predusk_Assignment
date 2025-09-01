@@ -1,5 +1,5 @@
 const express = require("express");
-const Profile = require("../models/Profile");
+const Profile = require("../model/Profile");
 const router = express.Router();
 
 // Create Profile
