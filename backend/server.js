@@ -24,6 +24,9 @@ app.get("/health", (req, res) => {
 const profileRoutes = require("./routes/profileRoutes");
 app.use("/api/profiles", profileRoutes);
 
+const queryRoutes = require("./routes/queryRoutes");
+app.use("/api/query", queryRoutes);
+
 
 // Start server
 const PORT = process.env.PORT || 5000;
